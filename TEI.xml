@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE teiCorpus SYSTEM "tei_custom.dtd">
+<?xml-stylesheet type="text/xsl" href="stilexsl.xsl"?>
+<?xml-stylesheet type="text/css" href="stilecss.css"?>
+
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0">
+    <!-- HEADER -->
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cimeli della prima guerra mondiale</title>
+                <respStmt>
+                    <resp>transcription by</resp>
+                    <name type="person" xml:id="CG">Giulia Causarano (matr.534645)</name>
+                </respStmt>
+                
+                <respStmt>
+                    <resp>Ente di Appartenenza</resp>
+                    <name type="comune" xml:id="SP">Comune della Spezia</name>
+                </respStmt>
+                
+            </titleStmt>
+            
+            <editionStmt>
+                <edition>Studenti di codifica di testo, Corso di Laurea Triennale di Informatica Umanistica, Università di Pisa
+                    <date>2020</date>
+                </edition>
+                
+                <respStmt>
+                    <resp>encoding by</resp>
+                    <name ref="#CG"> Giulia Causarano </name>
+                </respStmt>
+                <respStmt>
+                    
+                    <resp>Compilatore</resp>
+                    <name xml:id="TC">Tommaso Castagneto</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Responsabile scientifico</resp>
+                    <name xml:id="GP">Giacomo Paolicchi</name>
+                    <name xml:id="ES">Enrica Salvatori</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Funzionario responsabile</resp>
+                    <name xml:id="MR">Marzia Ratti</name>
+                </respStmt>
+            </editionStmt>
+            
+            <publicationStmt>
+                <publisher>Unipi</publisher>
+                <pubPlace>Pisa</pubPlace>
+                <availability status="restricted">
+                    <p>Available under licence only</p>
+                </availability>
+                <date when="2020">2020</date>
+                <distributor>LabCD</distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                    <addrLine>Pisa</addrLine>
+                </address>
+            </publicationStmt>
+            
+            <sourceDesc>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italia</country>
+                        <settlement type="city">La Spezia (SP)</settlement>
+                        <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerra Mondiale</repository>
+                    </msIdentifier>
+                </msDesc>
+            </sourceDesc>
+        </fileDesc>
+    </teiHeader>
+    
+    <!-- HEADER PRIMA CARTOLINA -->
+    
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title> La lettura </title>
+                    
+                    <respStmt>
+                        <resp>transcription by</resp>
+                        <name ref="#CG">Giulia Causarano</name>
+                    </respStmt>
+                    
+                    <respStmt>
+                        <resp>Ente di Appartenenza</resp>
+                        <name type="comune" ref="#SP">Comune della Spezia</name>
+                    </respStmt>
+                    
+                </titleStmt>
+                
+                <editionStmt>
+                    <edition>Studenti di codifica di testo, Corso di Laurea Triennale di Informatica Umanistica, Università di Pisa
+                        <date>2020</date>
+                    </edition>
+                    
+                    <respStmt>
+                        <resp>encoding by</resp>
+                        <name ref="#CG">Giulia Causarano</name>
+                    </respStmt>
+                     
+                    <respStmt>
+                        
+                        <resp>Compilatore</resp>
+                        <name ref="#TC">Tommaso Castagneto</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Responsabile scientifico</resp>
+                        <name ref="#GP">Giacomo Paolicchi</name>
+                        <name ref="#ES">Enrica Salvatori</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Funzionario responsabile</resp>
+                        <name ref="#MR">Marzia Ratti</name>
+                    </respStmt>
+                </editionStmt>
+                
+                <publicationStmt>
+                    <publisher>Unipi</publisher>
+                    <pubPlace>Pisa</pubPlace>
+                    <availability>
+                        <p>Available under licence only</p>
+                    </availability>
+                    <date when="2020">2020</date>
+                    <distributor>LabCD</distributor>
+                    <address>
+                        <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                        <addrLine>Pisa</addrLine>
+                    </address>
+                </publicationStmt>
+                
+                <sourceDesc>
+                    <bibl>
+                        <title> La lettura </title>
+                        <author> Camillo Innocenti </author>
+                    </bibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <country>Italia</country>
+                            <settlement>La Spezia (SP)</settlement>
+                            <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                            <idno>7694_003_001/002</idno>
+                        </msIdentifier>
+                        
+                        <msContents>
+                            <summary>Cartolina Artistica</summary>
+                            <textLang>Italiano</textLang>
+                        </msContents>
+                        
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <support>
+                                        <objectType>Cartolina</objectType>
+                                        <material>Carta</material>
+                                        <dimensions unit="cm">
+                                            <height>9</height>
+                                            <width>14</width>
+                                        </dimensions>
+                                        <stamp>francobollo - Poste Italiane</stamp>
+                                    </support>
+                                    <condition>Buono</condition>
+                                </supportDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote>
+                                    <p facs="intestazione2">Nell'angolo superiore destro della
+                                        cartolina è presente il numero di inventario(3),aggiunto dal catalogatore.</p>
+                                </handNote>
+                            </handDesc>
+                        </physDesc>
+                    </msDesc>
+                    
+                    <listPerson>
+                        <person xml:id="GC">
+                            <persName>
+                                <forename>Giovanni</forename>
+                                <surname>Coliola </surname>
+                            </persName>
+                            <sex>M</sex>
+                            <occupation n="1"> Tenente colonnello </occupation>
+                        </person>
+                        <person xml:id="OT">
+                            <persName>
+                                <forename>Oliva</forename>
+                                <surname>Turtura</surname>
+                            </persName>
+                            <sex>F</sex>
+                        </person>
+                    </listPerson>
+                    <listPlace>
+                        <place xml:id="RV">
+                            <placeName>Ravenna</placeName>
+                            <settlement type="località">città</settlement>
+                            <district type="comune">Ravenna</district>
+                            <district type="provincia">RV</district>
+                            <country key="N">IT</country>
+                        </place>
+                        <place xml:id="BO">
+                            <placeName>Bologna</placeName>
+                            <settlement type="località">città</settlement>
+                            <district type="comune">Bologna</district>
+                            <district type="provincia">BO</district>
+                            <country key="N">IT</country>
+                        </place>
+                    </listPlace>
+                </sourceDesc>
+            </fileDesc>
+            
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <persName ref="#GC"/>
+                        <placeName ref="#BO" />
+                        <date when="1917-05-22"> 22/5/1917</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName ref="#OT" />
+                        <placeName ref="#RV" />
+                    </correspAction>
+                </correspDesc>
+                
+                <langUsage>
+                    <language ident="it-IT">italiano</language>
+                    <language ident="fr-FR">francese</language>
+                    <language ident="de-DE">tedesco</language>
+                    <language ident="en-EN">inglese
+                        <note> (lingue utilizzate per il titolo alternativo della cartolina nel retro) </note>
+                    </language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        
+        <facsimile xml:id="cartolina_003">
+            <surfaceGrp>
+                <surface xml:id="cartolina_003F" type="fronte003">
+                    <graphic url="images/7694-003F.jpg" width="645px" height="416px" />
+                </surface>
+                <surface xml:id="cartolina_003R" type="retro003">
+                    <graphic url="images/7694-003R.jpg" width="416px" height="645px" />
+                    
+                    <!--data dell'invio e luogo-->
+                    <zone xml:id="intestazione1" ulx="17" uly="339" lrx="388" lry="413" rendition="Line"/>
+                    <!--numero 3-->
+                    <zone xml:id="intestazione2" ulx="15" uly="182" lrx="47" lry="212"  rendition="Line"/>
+                    <!--timbro postale-->
+                    <zone xml:id="intestazione3" ulx="27" uly="13" lrx="145" lry="138" rendition="HotSpot"/>
+                    <!--francobollo-->
+                    <zone xml:id="intestazione4" ulx="8" uly="2" lrx="107" lry="115" rendition="HotSpot"/>
+                    <!--Cordialissimi saluti-->
+                    <zone xml:id="riga1" ulx="30" uly="428" lrx="357" lry="498" rendition="Line"/>
+                    <!--affettuosi a tutti-->
+                    <zone xml:id="riga2" ulx="67" uly="496" lrx="327" lry="566" rendition="Line"/>
+                    <!--Giovannino-->
+                    <zone xml:id="riga3" ulx="65" uly="551" lrx="329" lry="638" rendition="Line"/>
+                    
+                    <!--Gentile sig.-->
+                    <zone xml:id="riga4" ulx="50" uly="99" lrx="153" lry="328" rendition="Line"/>
+                    <!--Oliva Turtura-->
+                    <zone xml:id="riga5" ulx="153" uly="30" lrx="220" lry="329" rendition="Line"/>
+                    <!--Via Girolamo Rossi 58-->
+                    <zone xml:id="riga6" ulx="219" uly="3" lrx="275" lry="336"  rendition="Line"/>
+                    <!--Ravenna-->
+                    <zone xml:id="riga7" ulx="281" uly="10" lrx="391" lry="326" rendition="Line"/>
+                </surface>
+            </surfaceGrp>
+        </facsimile>
+  
+        <text type="cartolina" xml:id="cart_7694_003">
+                <front facs="#cartolina_003F">
+                        <figure>
+                            <figDesc> Nella cartolina viene rappresentata la quotidianità della donna borghese,in particolare il tema della confidenza tra amiche. In primo piano due donne con abiti mondani sono intente alla lettura,l'animale domestico di fianco,e da sfondo un'elegante camera nobiliare dalla quale si intravede parte dell'arredamento dell'abitazione.</figDesc>
+                            <head> Camillo Innocenti-La lettura</head>
+                        </figure>
+                </front>
+                
+            <body xml:lang="ita">
+                <div type="retro" facs="#cartolina_003R">
+                    <div type="message">
+                      <opener>
+                        <dateline>
+                            <lb xml:id="int" facs="#intestazione1" />
+                                <placeName ref="#BO">Bologna,</placeName>
+                                <date when="22-5-1917">li 22/5/1917</date>
+                        </dateline>
+                      </opener> 
+                      <ab n="ab_003R">
+                          <address>
+                             <lb xml:id="testo4" facs="#riga4" />          
+                             <addrLine>Gentile sig.</addrLine>
+                             <lb xml:id="testo5" facs="#riga5"/>
+                             <addrLine><persName ref="#OT">Oliva Turtura </persName></addrLine>
+                             <lb xml:id="testo6" facs="#riga6" />
+                             <addrLine>Via Girolamo Rossi 58</addrLine>
+                             <lb xml:id="testo7" facs="#riga7" />
+                             <addrLine><placeName ref="#RV"><hi rend="underline">Ravenna</hi></placeName></addrLine>
+                           </address>
+                      </ab>
+                      <ab n="ab_03R" xml:id="testo">
+                          <s type="sentence" n="s_1">
+                            <lb xml:id="testo1" facs="#riga1" />Cordialissimi saluti
+                            <lb xml:id="testo2" facs="#riga2" />affettuosi a tutti
+                          </s>
+                      </ab>
+                      <closer>
+                          <lb xml:id="firma" facs="#riga3" />
+                          <signed>
+                          <hi rend="underline" xml:id="firmagc">
+                            <persName ref="#GC">Giovannino</persName>
+                          </hi>
+                          </signed>
+                      </closer>
+                    </div>
+                   
+                    <div type="destination">
+                        <p>
+                            <stamp type="postmark" facs="#intestazione3"> 
+                                <mentioned>AMB.BOLOGNA ANCONA <unclear reason="faded">(15)</unclear></mentioned>
+                                <date when="1917-5-22">22.5.17</date>
+                            </stamp>
+                            <stamp type="postage" facs="#intestazione4">francobollo da 5 centesimi delle Poste Italiane</stamp>
+                        </p>
+                    </div>
+                    
+                    <div type="stampe">
+                        <ab n="ab_003stamp">
+                            <s> <unclear reason="faded">ARS MINIMA</unclear> </s>
+                            <s> <unclear reason="faded">Proprietà artistica riservata-N.8</unclear></s>
+                            <s> <persName> CAMILLO INNOCENTI</persName> - La lettura </s>
+                            <s> <unclear reason="faded"> La lecture </unclear> </s>
+                            <s> <unclear reason="faded"> Die Lesung </unclear></s>
+                            <s> <unclear reason="faded"> The reading </unclear></s>
+                        </ab>
+                    </div>
+                </div>
+            </body>
+        </text>
+    </TEI>
+    
+    <!--HEADER SECONDA CARTOLINA-->
+    <TEI xmlns="http://www.tei-c.org/ns/1.0">
+        <teiHeader>
+            <fileDesc>
+                <titleStmt>
+                    <title> Back from the orchard </title>
+                    
+                    <respStmt>
+                        <resp>transcription by</resp>
+                        <name ref="#CG">Giulia Causarano</name>
+                    </respStmt>
+                    
+                    <respStmt>
+                        <resp>Ente di Appartenenza</resp>
+                        <name type="comune" ref="#SP">Comune della Spezia</name>
+                    </respStmt>
+                    
+                </titleStmt>
+                
+                <editionStmt>
+                    <edition>Studenti di codifica di testo, Corso di Laurea Triennale di Informatica Umanistica, Università di Pisa
+                        <date>2020</date>
+                    </edition>
+                    
+                    <respStmt>
+                        <resp>encoding by</resp>
+                        <name ref="#CG">Giulia Causarano</name>
+                    </respStmt>
+                    
+                    <respStmt>
+                        
+                        <resp>Compilatore</resp>
+                        <name ref="#TC">Tommaso Castagneto</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Responsabile scientifico</resp>
+                        <name ref="#GP">Giacomo Paolicchi</name>
+                        <name ref="#ES">Enrica Salvatori</name>
+                    </respStmt>
+                    <respStmt>
+                        <resp>Funzionario responsabile</resp>
+                        <name ref="#MR">Marzia Ratti</name>
+                    </respStmt>
+                </editionStmt>
+                
+                <publicationStmt>
+                    <publisher>Unipi</publisher>
+                    <pubPlace>Pisa</pubPlace>
+                    <availability>
+                        <p>Available under licence only</p>
+                    </availability>
+                    <date when="2020">2020</date>
+                    <distributor>LabCD</distributor>
+                    <address>
+                        <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                        <addrLine>Pisa</addrLine>
+                    </address>
+                </publicationStmt>
+                
+                
+                <sourceDesc>
+                    <bibl>
+                        <title> Back from the orchard </title>
+                        <author> J Cavé </author>
+                        <pubPlace>Parigi</pubPlace>
+                    </bibl>
+                    <msDesc>
+                        <msIdentifier>
+                            <country>Italia</country>
+                            <settlement>La Spezia (SP)</settlement>
+                            <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                            <idno>7694_015_001/002</idno>
+                        </msIdentifier>
+                        
+                        <msContents>
+                            <summary>Cartolina Artistica</summary>
+                            <textLang>Italiano</textLang>
+                        </msContents>
+                        
+                        <physDesc>
+                            <objectDesc>
+                                <supportDesc>
+                                    <support>
+                                        <objectType>Cartolina</objectType>
+                                        <material>Carta</material>
+                                        <dimensions unit="cm">
+                                            <height>9</height>
+                                            <width>14</width>
+                                        </dimensions>
+                                        <stamp>francobollo - Poste Italiane</stamp>
+                                    </support>
+                                    <condition>Buono</condition>
+                                </supportDesc>
+                            </objectDesc>
+                            <handDesc>
+                                <handNote>
+                                    <p facs="int2">Nell'angolo superiore destro della
+                                        cartolina è presente il numero di inventario(15),aggiunto dal catalogatore.</p>
+                                </handNote>
+                            </handDesc>
+                        </physDesc>
+                    </msDesc>
+                    
+                    <listPerson>
+                        <person>
+                            <persName ref="#GC">
+                                <forename>Giovanni</forename>
+                                <surname>Coliola </surname>
+                            </persName>
+                            <sex>M</sex>
+                            <occupation n="1"> Tenente colonnello </occupation>
+                        </person>
+                        <person>
+                            <persName ref="#OT">
+                                <forename>Oliva</forename>
+                                <surname>Turtura</surname>
+                            </persName>
+                            <sex>F</sex>
+                        </person>
+                    </listPerson>
+                    <listPlace>
+                        <place>
+                            <placeName ref="#RV">Ravenna</placeName>
+                            <settlement type="località">città</settlement>
+                            <district type="comune">Ravenna</district>
+                            <district type="provincia">RV</district>
+                            <country key="N">IT</country>
+                        </place>
+                        <place xml:id=" MI">
+                            <placeName>Milano</placeName>
+                            <settlement type="località">città</settlement>
+                            <district type="comune">Milano</district>
+                            <district type="provincia"> MI </district>
+                            <country key="N">IT</country>
+                        </place>
+                    </listPlace>
+                </sourceDesc>
+            </fileDesc>
+            
+            <profileDesc>
+                <correspDesc>
+                    <correspAction type="sent">
+                        <persName ref="#GC"/>
+                        <placeName ref="#MI" />
+                        <date when="1917-09-21"> 21/9/1917</date>
+                    </correspAction>
+                    <correspAction type="received">
+                        <persName ref="#OT" />
+                        <placeName ref="#RV" />
+                    </correspAction>
+                </correspDesc>
+                
+                <langUsage>
+                    <language ident="it-IT">italiano</language>
+                    <language ident="en-EN">inglese</language>
+                    <language ident="fr-FR">francese</language>
+                    <language ident="de-DE">tedesco</language>
+                    <language ident="pol-POL">polacco</language>
+                    <language ident="ru-RU">russo
+                        <note> (lingue utilizzate per il titolo alternativo della cartolina nel retro) </note>
+                    </language>
+                </langUsage>
+            </profileDesc>
+        </teiHeader>
+        
+        <facsimile xml:id="cartolina_015">
+            <surfaceGrp>
+                <surface xml:id="cartolina_015F" type="fronte015">
+                    <graphic url="images/7694-015F.jpg" width="416px" height="654px" />
+                </surface>
+                <surface xml:id="cartolina_015R" type="retro015">
+                    <graphic url="images/7694-015R.jpg" width="416px" height="649px" />
+                    
+                    <!--data dell'invio e luogo-->
+                    <zone xml:id="int1" ulx="30" uly="335" lrx="285" lry="379" rendition="Line"/>
+                    <!--numero 15-->
+                    <zone xml:id="int2" ulx="15" uly="27" lrx="51" lry="71" rendition="Line"/>
+                    <!--timbro postale-->
+                    <zone xml:id="int3" ulx="55" uly="256" lrx="150" lry="368" rendition="HotSpot"/>
+                    <!--francobollo-->
+                    <zone xml:id="int4" ulx="2" uly="95" lrx="101" lry="212" rendition="HotSpot"/>
+                    <!--affettuosi saluti-->
+                    <zone xml:id="r1" ulx="28" uly="382" lrx="271" lry="431" rendition="Line"/>
+                    <!--Giovannino-->
+                    <zone xml:id="r2" ulx="58" uly="470" lrx="381" lry="546" rendition="Line"/>
+                    
+                    <!--Gentile sig.na-->
+                    <zone xml:id="r3" ulx="69" uly="13" lrx="121" lry="306"  rendition="Line"/>
+                    <!--Oliva Turtura-->
+                    <zone xml:id="r4" ulx="125" uly="8" lrx="173" lry="319" rendition="Line"/>
+                    <!--Via Girolamo Rossi 58-->
+                    <zone xml:id="r5" ulx="183" uly="8" lrx="223" lry="315" rendition="Line"/>
+                    <!--Ravenna-->
+                    <zone xml:id="r6" ulx="243" uly="6" lrx="328" lry="265" rendition="Line"/>
+                   
+                </surface>
+            </surfaceGrp>
+        </facsimile>
+        
+        <text type="cartolina" xml:id="cart_7694_015">
+            <front facs="#cartolina_015F">
+                <figure>
+                    <figDesc> Nella cartolina viene rappresentata una donna con un cesto di frutta,sul quale appare adagiarsi probabilmente in seguito all'affaticamento dovuto alla raccolta.</figDesc>
+                    <note n="1" place="bottom"> Nell'angolo inferiore sinistro è presente il nome dell'artista,<persName>J Cavé</persName>.</note>
+                    <head> J Cavè-Back from the orchard </head>
+                </figure>
+            </front>
+            
+            <body xml:lang="ita">
+                <div type="retro" facs="#cartolina_015R">
+                    <div type="message">
+                        <opener>
+                            <dateline>
+                                <lb xml:id="inte" facs="#int1" />
+                                <placeName ref="#MI">Milano</placeName>
+                                <date when="21-9-1917">li 21/9/1917</date>
+                            </dateline>
+                        </opener> 
+                        <ab n="ab_015R">
+                            <address>
+                                <lb xml:id="text4" facs="#r3" />          
+                                <addrLine>Gentile sig.na</addrLine>
+                                <lb xml:id="text5" facs="#r4"/>
+                                <addrLine><persName ref="#OT">Oliva Turtura </persName></addrLine>
+                                <lb xml:id="text6" facs="#r5" />
+                                <addrLine>Via Girolamo Rossi 58</addrLine>
+                                <lb xml:id="text7" facs="#r6" />
+                                <addrLine><placeName ref="#RV"><hi rend="underline">Ravenna</hi></placeName></addrLine>
+                            </address>
+                        </ab>
+                        <ab n="ab_15R" xml:id="text">
+                            <s type="sentence" n="s_2">
+                                <lb xml:id="text1" facs="#r1" />Affettuosi saluti
+                            </s>
+                        </ab>
+                        <closer>
+                            <lb xml:id="firma2" facs="#r2" />
+                            <signed>
+                                <hi rend="underline" xml:id="firmacg">
+                                    <persName ref="#GC">Giovannino</persName>
+                                </hi>
+                            </signed>
+                        </closer>
+                    </div>
+                    
+                    <div type="destination">
+                        <p>
+                           <stamp type="postmark" facs="#int3"> 
+                                <mentioned> MILANO CENTRO, </mentioned>
+                                <date><unclear reason="illegible">17-18 2 1917</unclear></date>
+                           </stamp>
+                           <stamp type="postage" facs="#int4">francobollo da 5 centesimi delle Poste Italiane</stamp>
+                        </p>
+                    </div>
+                    
+                    <div type="stampe">
+                        <ab n="ab_015stamp">
+                            <s> S P A </s>
+                            <s> Made in France-Paris,Selectacolor N°077</s>
+                            <s> <orgName> SALON DE PARIS-</orgName><persName> J Cavé</persName> </s>
+                            <s> Парижскiи салонъ  </s>
+                            <s> Retour du Verger Back from the Orchard Rückkehr</s>
+                            <s> vom Obstgarten  Z ogrodu </s>
+                            <s> Изъ фруктоваго сада</s>
+                        </ab>
+                    </div>
+                </div>
+            </body>
+        </text>
+    </TEI>
+</teiCorpus>
+                    
+                   
+                    

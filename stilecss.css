@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to bottom, #fdfcfb -45%, #e2d1c3 100%);
+    font-family: 'Muli', sans-serif;
+    font-size: 120%;
+    color: black;    
+}
+
+h1{
+    text-align: center;
+    padding: 0;
+    margin-top: 5%;
+}
+
+#prefazione{
+    text-align: justify;
+    display: block;
+    margin: auto;
+    width: 90%;
+}
+
+#main{
+    margin:0 auto;
+    padding:0;
+    width:90%;
+    height:50%;
+}
+#imgpiccole1{
+    padding: 5px;
+    width: 40%;
+    height:auto;
+    float:left;
+    margin-left:10%;
+}
+#imgpiccole2{
+    padding: 5px;
+    height:auto;
+    width: 40%;
+    float: right;
+    margin-right:-5%;
+    }
+
+.img1{
+    height: 100%;
+    border-radius: 10px;
+}
+
+.img2{
+    height: 120%;
+    border-radius: 10px;
+}
+
+#contenitore1,#contenitore2{
+    width: 90%;
+    height: auto;
+    border: 2px solid black;
+    border-radius:20px;
+    margin-left: 5%;
+}
+.titolo1,.titolo2{
+    font-size: 200%;
+    text-align: center;
+}
+#img1F,#img1R,#img2F,#img2R{
+    margin-left:3%;
+}
+
+#fronte_cart1,#fronte_cart2{
+    float:right;
+    border: 1px solid black;
+    padding:3%;
+    font-size: 80%;
+    width: 30%;
+    height:65%;
+    margin-right:2%;
+    border-radius: 10px;
+    overflow:auto;
+}
+#retro_cart1,#retro_cart2{
+    float:right;
+    border: 1px solid black;
+    width: 36%;
+    height: 110%;
+    margin-right:2%;
+    border-radius: 10px;
+    overflow:auto;
+}
+
+.punt{
+    visibility: hidden;
+}
+
+.messaggio{
+     padding:3%;
+     font-size:80%;
+}
+h3{
+    text-align:center;
+    margin-bottom:-10%;
+}
+#ab_003R,#ab_015R{
+    text-align:center;
+    padding:1%;
+    margin-top:-25%;
+    line-height:1%;
+    margin-left:53%;
+}
+#ab_03R,#ab_15R{
+    text-align:center;
+    margin-top:-63%;
+    margin-left:-60%;
+    line-height:1%;
+}
+#firma,#firma2{
+    margin-top:-15%;
+    margin-left:10%;
+}
+#info1{
+    margin-top:5%;
+    margin-left:2%;
+}
+#info2{
+    margin-top:20%;
+    margin-left:2%;
+}
+#footer{
+    margin:0 auto;
+    padding:0;
+    background-color: transparent;  
+}
+#conclusione{
+    background-color: rgba(192,192,192,0.5);
+    width: 87%;
+	margin-left: 5%;
+	padding: 1%;
+	float: left;
+	border-radius: 25px;
+	margin-bottom: 5%;
+}
+#crediti{
+    padding: 5px;
+    width: 40%;
+    height:auto;
+    float:left;
+    
+}
+#about{
+    padding: 5px;
+    width: 40%;
+    height:auto;
+    float:right;
+}
+#crediti p,#about p{
+    text-align: center;
+	font-size: 70%;
+	
+}
+#crediti h2,#about h2{
+    text-align: center;
+    font-size: 200%;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px black; 
+  border-radius: 10px;
+}
+::-webkit-scrollbar-thumb {
+  background: black; 
+  border-radius: 10px;
+}
+
+    
